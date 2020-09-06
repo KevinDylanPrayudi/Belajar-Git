@@ -15,3 +15,13 @@ git help => untuk melihat macam-macam perintah pada git
 Proses yang terjadi pada 3 area pada Repo Git
 Working Tree ==git add==> Staging Area ==git commit==> History
 
+Langkah-langkah git pada lokal
+1. git init => untuk membuat/menginisialisasi folder saat ini menjadi repo
+2. git status => git akan memunculkan file yang berubah/belum di add di masukkan ke Staging Area
+    *git Untracked files => file-nya belum ditracking sama gitnya jadi file tersebut harus di masukkan ke staging area
+    *git modified files => file-nya telah diubah
+    *git rm --chached <file> => untuk menghapus file dari staging area
+3. git commit => untuk melakukan commit pada filenya
+    *sebelum melakukan git commit pertama-tama cek dulu apakah sudah ada user.name & user.email-nya sudah diisi atau belum, kalau belum isi user.name & user.email terlebih dahulu, perintah adalah:
+    "git config --global user.email'nama@email.com'"
+    "git config --global user.name 'Your Name'" 
