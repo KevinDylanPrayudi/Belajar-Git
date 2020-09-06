@@ -1,0 +1,17 @@
+git init => untuk menginisialisasi repo git
+git add => menambahkan file ke staging area
+git status => untuk mengetahui status repo
+git commit => untuk melakukan commit pada file
+git config => untuk melakukan config pada konfigurasi git
+git branch => untuk membuat branch
+git help => untuk melihat macam-macam perintah pada git
+
+3 Area pada Repo Git
+1. Working tree => folder/repo tempat melakukan pekerjaan
+2. Staging area => area dimana setelah memberitahukan Git kalau telah melakukan perubahan
+3. History => kalau sudah melakukan commit maka semua rekaman commitnya tersimpan disini
+<Staging area & History> => tersimpan pada repo .git yang tersembunyi
+
+Proses yang terjadi pada 3 area pada Repo Git
+Working Tree ==git add==> Staging Area ==git commit==> History
+
