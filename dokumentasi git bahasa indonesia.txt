@@ -33,5 +33,28 @@ Langkah-langkah git pada lokal
 6. git log --all --decorate --oneline --graph => digunakan untuk memvisualisasikan dalam bentuk garis seperti pada github
     *alias graph "git log --all --decorate --oneline --graph"
 7. jenis-jenis merge
-    1.Fast Forward => 
-    2.Three-way Merge
+    1.Fast Forward => commit yang ingin di merge itu langsung terhubung dengan branch master
+    2.Three-way Merge => commit yang ingin di merge tidak terhubung dengan commit yang di tuju & melakukan commit baru
+8. git branch --merged => digunakan untuk melihat branch yang sudah di merge
+9. git branch -d nama branch => melakukan delete terhadap branch yang di tuju
+10. git branch -D nama branch => melakukan delete terhadap branch yang belum melakukan merge
+
+langkah-langkah untuk git remote:
++Mengcloning repository dari github ke local
+1. git clone url => melakukan cloning terhadap repository dari github ke local (windows)
+    Catatan: Jika kita melakukan cloning terhadap repository dari github maka secara otomatis akan di buatkan nama remote yaitu origin
+2. git remote -v(verbose) => melihat remotenya secara lebih detail
+3. git status => Mengecek status dari repo kita
+    Catatan: Nanti akan muncul kalimat "Your branch is up to date with 'origin/master'." yang awalnya tidak ada jika kita cuman melakukan peritnah git di local saja.
+4. git push => untuk mengirim perubahan yang di lakukan ke akun github kita.
+5. git config --list => mengecek configurasi dari git local kita.
+
++Melakukan upload repository dari local ke github
+1. git remote add Namanya bebas url => untuk membuat remote baru dari local ke github.
+2. git push -u origin master => melakukan pengiriman file ke github menggunakan remote origin ke branch master di github.
+    Catatan -u (Upstream) agar ketika melakukan upload file ke github tidak perlu lagi mengetikan nama remote dan nama branchnya
+
++Jika terjadi perubahan file pada akun github
+1. git fetch => untuk melakukan pengecekan terhadap perubahan yang terjadi pada repository pada akun github kita.
+2. git pull => untuk mengambil dulu file yang bermasalah tadi.
+
