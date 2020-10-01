@@ -25,7 +25,7 @@ Langkah-langkah git pada lokal
     *sebelum melakukan git commit pertama-tama cek dulu apakah sudah ada user.name & user.email-nya sudah diisi atau belum, kalau belum isi user.name & user.email terlebih dahulu, perintah adalah:
     "git config --global user.email'nama@email.com'"
     "git config --global user.name 'Your Name'" 
-4. git log => digunakan untuk melihat hasil commit-commit yang telah dilakukan
+    *git commit -am "Pesan" => digunakan jika filenya modified dan belum di masukkan ke staging area lalu ingin di commi. git log => digunakan untuk melihat hasil commit-commit yang telah dilakukan
     *git log -3 => artinya lihat 3 commit terakhir
     *git log -- "nama file" => lihat commit yang berhubungan dengan nama file yang dicari
 5. git checkout => untuk melakukan perpindahan dari commit atau branch
