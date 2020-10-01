@@ -29,6 +29,9 @@ Langkah-langkah git pada lokal
     *git log -3 => artinya lihat 3 commit terakhir
     *git log -- "nama file" => lihat commit yang berhubungan dengan nama file yang dicari
 5. git checkout => untuk melakukan perpindahan dari commit atau branch
-    *git checkout <hash/id commit> -- <"nama file"> => mengembalikan file yang telah dihapus berdasarkan hash/commitnya
+    *git checkout <hash/id commit> -- <"nama file"> => mengembalikan file yang telah dihapus berdasarkan hash/commitnya tanpa mengubah file keseluruhan
 6. git log --all --decorate --oneline --graph => digunakan untuk memvisualisasikan dalam bentuk garis seperti pada github
     *alias graph "git log --all --decorate --oneline --graph"
+7. jenis-jenis merge
+    1.Fast Forward => 
+    2.Three-way Merge
