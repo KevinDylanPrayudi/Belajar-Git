@@ -58,3 +58,16 @@ langkah-langkah untuk git remote:
 1. git fetch => untuk melakukan pengecekan terhadap perubahan yang terjadi pada repository pada akun github kita.
 2. git pull => untuk mengambil dulu file yang bermasalah tadi.
 
+langkah-langkah untuk melakukan Web Hosting Gratis dengan GitHub Pages
++Menambahkan 1 repository ke web hosting gratis github pages
+1. Buat repository baru pada https://github.com/new
+2. Untuk nama repositorynya harus mengikuti nama akun githubnya
+    Contoh : KevinDylanPrayudi.github.io
+3. Tambahkan Description & Jangan tambahkan README
+
++Menambakan 1 repository baru & ingin menampilkan UI webnya
+1. Buat repository baru pada https://github.com/new
+2. Masukkan nama repositorynya (terserah karena sebelumnya sudah ada repository yang menggunakan usernamenya)
+3. Masuk ke tab settings lalu scroll ke bawah sampai ketemu Github Pages
+4. pada saat di source github pages pilih branch yang ingin di tampilkan & atur juga file yang mana akan ditampilkan
+
